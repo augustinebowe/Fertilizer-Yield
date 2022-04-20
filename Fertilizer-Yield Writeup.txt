@@ -1,0 +1,20 @@
+﻿Fertilizer Use and Crop Yields
+
+
+Abstract:
+Fertilizer prices have increased sharply since 2020, and are projected to increase further.  The UN’s data on crop production and fertilizer use show that, while there is a positive correlation between fertilizer use and crop yields, decreases in fertilizer use are not always associated with a decrease in crop yields, and fertilizer’s returns are diminishing after a certain point.  A model that predicted the marginal value in dollars of a unit of fertilizer would help farmers make optimal decisions on fertilizer purchases in the face of higher fertilizer prices
+Client: 
+Farmers deciding how much fertilizer and pesticide it makes sense to buy in order to maximize their profit in one harvest
+Question/Need:
+With Fertilizer prices at historic highs, and expected to rise, farmers need to know how much fertilizer and pesticides it makes sense to buy – fertilizers increase crop yields, but also represent a high portion of a farmer’s variable costs year to year.
+Impact
+Help farmers make better-informed decisions about fertilizer and pesticide use in light of market changes
+Given fertilizer prices and crop futures prices, we can assign a dollar value to the marginal unit of fertilizer – the farmer will will buy the amount of fertilizer that maximizes profit
+Data Description:
+UN data on crop yields, fertilizer, and pesticide use across the world from 19909 to 2019 and data on average temperature and rainfall for each country each year
+Criteria for Success
+Increased profitability for farms following the model’s findings.  Although overall crop yield could be smaller due to less fertilizer, increased profit would be a successful outcome 
+Assumptions and Risks:
+Fertilizer and pesticide use levels are independent variables, and not determined by the conditions in any given country, and that their global relationship to crop yields can be specified to one individual farm in a country
+Future Data Science Path:
+Create a regression model, controlling for climate and economic factors, to predict the increase in crop yields of an additional unit of fertilizer.  Using current crop prices and the price of fertilizer, this model could solve for the optimal level of fertilizer.
